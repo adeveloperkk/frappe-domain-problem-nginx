@@ -24,19 +24,7 @@ Regenerate the Nginx configuration:
 
 ```bash
 bench setup nginx
-```
-
-## ✅ Step 3: Test the Nginx Configuration
-
-Before reloading Nginx, verify that the configuration is valid:
-
-```bash
 sudo nginx -t
-```
-
-If the test succeeds, reload Nginx:
-
-```bash
 sudo systemctl reload nginx
 ```
 
